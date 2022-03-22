@@ -1,0 +1,24 @@
+{
+  "name": "@pounce/otc",
+  "version": "1.0.0",
+  "description": "Simple library for generation TOTP codes.",
+  "keywords": [],
+  "author": "Fern",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
