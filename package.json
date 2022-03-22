@@ -1,5 +1,5 @@
 {
-  "name": "@pounce/otc",
+  "name": "@pounce-app/otc",
   "version": "1.0.0",
   "description": "Simple library for generation TOTP codes.",
   "keywords": [],
@@ -20,5 +20,9 @@
     "jest": "^27.5.1",
     "ts-jest": "^27.1.3",
     "typescript": "^4.6.2"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com/pounce-app/otc.git" 
 }
