@@ -3,7 +3,7 @@ Simple library for generating one-time-passwords which are compatible with authe
 
 ## Installtion
 ```
-npm install npm i @pounce-app/otc
+npm i @pounce-app/otc
 ```
 
 ## Usage
